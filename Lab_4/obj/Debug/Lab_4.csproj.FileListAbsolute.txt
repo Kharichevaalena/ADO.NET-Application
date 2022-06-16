@@ -1,0 +1,12 @@
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\bin\Debug\cashbox_Aeroflot.mdf
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\bin\Debug\cashbox_Aeroflot_log.ldf
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\bin\Debug\Lab_4.exe.config
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\bin\Debug\Lab_4.exe
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\bin\Debug\Lab_4.pdb
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.csprojAssemblyReference.cache
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.Form1.resources
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.Properties.Resources.resources
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.csproj.GenerateResource.cache
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.exe
+C:\Users\Alena\Desktop\школа 2.0\2 курс\2 сем\балса методы программирования\экзаменационная работа\Lab_4\obj\Debug\Lab_4.pdb

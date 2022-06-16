@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="cashbox_AeroflotDataSet2" targetNamespace="http://tempuri.org/cashbox_AeroflotDataSet2.xsd" xmlns:mstns="http://tempuri.org/cashbox_AeroflotDataSet2.xsd" xmlns="http://tempuri.org/cashbox_AeroflotDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="cashbox_AeroflotConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cashbox_AeroflotConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Lab_4.Properties.Settings.GlobalReference.Default.cashbox_AeroflotConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Table_of_FlightsTableAdapter" GeneratorDataComponentClassName="Table_of_FlightsTableAdapter" Name="Table_of_Flights" UserDataComponentName="Table_of_FlightsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="cashbox_AeroflotConnectionString (Settings)" DbObjectName="dbo.Table_of_Flights" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Place FROM dbo.Table_of_Flights</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Place" DataSetColumn="Place" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="cashbox_AeroflotDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="cashbox_AeroflotDataSet2" msprop:Generator_UserDSName="cashbox_AeroflotDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table_of_Flights" msprop:Generator_TableClassName="Table_of_FlightsDataTable" msprop:Generator_TableVarName="tableTable_of_Flights" msprop:Generator_TablePropName="Table_of_Flights" msprop:Generator_RowDeletingName="Table_of_FlightsRowDeleting" msprop:Generator_RowChangingName="Table_of_FlightsRowChanging" msprop:Generator_RowEvHandlerName="Table_of_FlightsRowChangeEventHandler" msprop:Generator_RowDeletedName="Table_of_FlightsRowDeleted" msprop:Generator_UserTableName="Table_of_Flights" msprop:Generator_RowChangedName="Table_of_FlightsRowChanged" msprop:Generator_RowEvArgName="Table_of_FlightsRowChangeEvent" msprop:Generator_RowClassName="Table_of_FlightsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Place" msprop:Generator_ColumnVarNameInTable="columnPlace" msprop:Generator_ColumnPropNameInRow="Place" msprop:Generator_ColumnPropNameInTable="PlaceColumn" msprop:Generator_UserColumnName="Place" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
